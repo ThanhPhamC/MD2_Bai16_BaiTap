@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class ReadAndWrite {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<String> list = readFile("taptinnguon");
-        writeFile("taptindich", list,count(list));
+        ArrayList<String> list = readFile("filenguon.txt");
+        writeFile("filedich.txt", list,count(list));
     }
     public static ArrayList<String> readFile(String path) {
         ArrayList<String> stringArrayList = new ArrayList<>();
